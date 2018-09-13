@@ -122,5 +122,6 @@ public class ConstruccionViewModel extends BaseObservable{
     public void irADetalles(View view){
         ((VintappExamenApp)parent.getApplication()).setCVM(this);
         view.getContext().startActivity(new Intent(view.getContext(), ConstruccionActivity.class));
+        
     }
 }
